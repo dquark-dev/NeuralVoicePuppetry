@@ -17,6 +17,7 @@ The resampling to the video fps is based on the code provided by the Voca reposi
 
 Note, because of legal issues, we are not allowed to share our 3D face model as well as the training video corpus.
 The 3D face model is based on the Basel face model and can be downloaded here: https://faces.dmi.unibas.ch/bfm/main.php?nav=1-2&id=downloads
+
 The videos used for training are from the German public media, a download list is provided in the datasets subfolder.
 
 ## Audio2ExpressionNet
@@ -39,6 +40,24 @@ Note that you need a renderer that renders uv maps that are used as input to the
 The code also contains implementations of neural textures that are conditioned e.g. on the audio feature inputs.
 They are called dynamic neural textures.
 
+## Citation
+If you use the Neural Voice Puppetry code please cite:
+```
+@article{thies2020nvp,
+  author = {Thies, Justus and Elgharib, Mohamed and Tewari, Ayush and Theobalt, Christian and Nie{\ss}ner, Matthias},
+  title = {Neural Voice Puppetry: Audio-driven Facial Reenactment},
+  journal={ECCV 2020},
+  year={2020}
+}
+
+```
+
+
 ## Ackowledgements
 
 This code is based on the Pix2Pix/CycleGAN framework [(Github repo)](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+
+
+## License
+
+Researcher shall use the code only for non-commercial research and educational purposes.
