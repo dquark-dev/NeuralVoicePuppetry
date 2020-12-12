@@ -52,6 +52,10 @@ If you use the Neural Voice Puppetry code please cite:
 
 ```
 
+## Controlling StyleGAN Using the Audio2ExpressionNet
+
+In his master thesis, [Felix Meissen](https://github.com/FeliMe) used the Audio2ExpressionNet to drive faces in the StyleGAN space.
+Results and code can be found here: [AudioStyleNet](https://github.com/FeliMe/AudioStyleNet) [Video](https://www.youtube.com/watch?v=yt7NSeYeNt0)
 
 ## Ackowledgements
 
